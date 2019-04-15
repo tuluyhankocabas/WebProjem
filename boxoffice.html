@@ -1,96 +1,59 @@
 <html>
-<body>
-<style type="text/css">
-
-#ddcolortabs{
-margin-left: 4px;
-padding: 0;
-width: 100%;
-background: transparent;
-voice-family: "\"}\"";
-voice-family: inherit;
-padding-left: 5px;
+<head>
+<style>
+body {
+ background-color: #343434;
 }
-
-#ddcolortabs ul{
-font: bold 11px Arial, Verdana, sans-serif;
-margin:0;
-padding:0;
-list-style:none;
-}
-
-#ddcolortabs li{
-display:inline;
-margin:0 2px 0 0;
-padding:0;
-text-transform:uppercase;
-}
-
-
-#ddcolortabs a{
-float:left;
-color: white;
-background: #678b3f url(media/color_tabs_left.gif) no-repeat left top;
-margin:0 2px 0 0;
-padding:0 0 1px 3px;
-text-decoration:none;
-letter-spacing: 1px;
-}
-
-#ddcolortabs a span{
-float:left;
-display:block;
-background: transparent url(media/color_tabs_right.gif) no-repeat right top;
-padding:4px 9px 2px 6px;
-}
-
-#ddcolortabs a span{
-float:none;
-}
-
-
-#ddcolortabs a:hover{
-background-color: #8cb85c;
-}
-
-#ddcolortabs a:hover span{
-background-color: #8cb85c;
-}
-
-#ddcolortabs #current a, #ddcolortabs #current span{ /*currently selected tab*/
-background-color: #8cb85c;
-}
-
-#ddcolortabsline{
-clear: both;
-padding: 0;
-width: 100%;
-height: 8px;
-line-height: 8px;
-background: #678b3f;
-border-top: 1px solid #fff; /*Remove this to remove border between bar and tabs*/
-}
-
 </style>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-<center>
-<div id="ddcolortabs">
-<ul>
-<li style="margin-left: 1px"><a href="anasayfa.html"" title="Anasayfa"><span>AnaSayfa</span></a></li>
-<li><a href="yakinda.html" title="Yakında"><span>Yakında</span></a></li>
-<li id="current"><a href="vizyondakifilmler.html" title="Vizyondaki filmler"><span>Vizyondaki filmler </span></a></li>
-<li><a href="eniyiler.html" title="En iyi filmler"><span>En iyi filmler</span></a></li>	
-<li><a href="haberler.html" title="Haberler"><span>Haberler</span></a></li>	
-<li><a href="sinepedi.html" title="Sinepedi"><span>Sinepedi</span></a></li>	
-<li><a href="boxoffice.html" title="Boxoffice"><span>Boxoffice</span></a></li>	
-
-
-</ul>
+<body>
+<div id="sayfa">
+  <div id="logo"><img src="logo.jpg" width="1000" height="80" /></div>
+  <div id="renkicin">
+    <div id="menu">
+      <ul class='dd_menu'>
+        <li><a href='anasayfa.html'>Anasayfa</a> </li>
+        <li><a href='yakinda.html'>Yakında</a> </li>
+        <li><a href='vizyondakifilmler.html'>Vizyondakiler</a>
+		 <li><a href='eniyiler.html'>En iyiler</a>
+		  <li><a href='haberler.html'>Haberler</a>
+         <li><a href='eniyiler.html'>En iyiler</a>
+        <li><a href='boxoffice.html'>Box office</a> </li>
+      </div>
+  </div>
+  <div class="icerik">
+    <div id="sagilk">
+      <div id="ilk"><img src="Untitled-1.png" width="170" height="100" border="0" usemap="#Map" />
+        <map name="Map" id="Map">
+          <area shape="poly" coords="146,96,149,95" href="#" />
+          <area shape="rect" coords="26,4,153,96" href="/" />
+        </map>
+      </div>
+    <div id="orta"><a href=""><img src="SON.png" width="170" height="100" border="0" usemap="#Map2" /></a>
+      <map name="Map2" id="Map2">
+        <area shape="rect" coords="66,16,141,71" href=" target="_blank" />
+        <area shape="rect" coords="1,9,151,98" href="#" />
+      </map>
+    </div>
+    <div id="alt"><img src="ORTA.png" width="170" height="100" border="0" usemap="#Map3" />
+      <map name="Map3" id="Map3">
+        <area shape="rect" coords="55,28,150,78" href="anasayfa.html" target="_blank" />
+      </map>
+    </div>
 </div>
-
-<div id="ddcolortabsline">&nbsp;</div>
-
-
-</center>
+    <div class="solsidebar"><img src="SOLSİDEBAR.jpg" width="150" height="450" /></div>
+    <div id="icerikrenk">
+      <div id="resimalan">
+      <p><img src="manzara.gif" width="460" height="360" /></p>
+      <p>&nbsp;</p>
+    </div>
+</div>
+  </div>
+  <div id="footer"><a href="#">ANASAYFA | TWİTTER | FACEBOOK </a>
+    <div id="footrenk"></div>
+  </div>
+</div>
 </body>
 </html>
